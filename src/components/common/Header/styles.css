@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.links a {
+    color: var(--blue-grey);
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: var(--grey);
+    transition: 0.3s;
+}
+
+.shadow {
+    position: absolute;
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    background: var(--red);
+    filter: blur(100px);
+    z-index: -1;
+    top: -100px;
+}
+
+.active {
+    color: var(--grey) !important;
+}

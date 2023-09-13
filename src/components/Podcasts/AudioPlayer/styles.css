@@ -1,0 +1,44 @@
+.custom-audio-player {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgba(5, 1, 31, 0.5);
+}
+
+.display-image-player {
+    height: 1.7rem;
+    width: 1.5rem;
+    object-fit: cover;
+}
+
+.duration-range {
+   filter: hue-rotate(90deg); 
+   width: 140%;
+}
+.duration-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    width: 50%;
+}
+
+.custom-audio-player p {
+    font-size: 18px ;
+}
+
+.icon {
+    margin-bottom: 0.7rem !important;
+    margin-left: 0.5rem;
+}
+
+.volume-range {
+    filter: hue-rotate(90deg); 
+    width: 80%;
+}
